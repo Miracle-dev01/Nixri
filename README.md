@@ -6,7 +6,7 @@ Designed to be modular, reproducible, and easy to customize.
 
 ## Preview
 
-<!-- Incomming -->
+*Incomming*
 
 ## Features
 
@@ -36,7 +36,7 @@ Nixri/
 
 ## Installation
 
-<!-- Incomming -->
+*Incomming*
 
 ## Customization
 
