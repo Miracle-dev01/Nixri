@@ -1,0 +1,16 @@
+    window-rule {
+        geometry-corner-radius 10 // Set every window radius to 20
+        clip-to-geometry true
+    }
+
+    layer-rule {
+        match namespace="^noctalia-wallpaper*"
+        place-within-backdrop true
+    }
+    // Floating Noctalia Settings window
+    window-rule {
+      match app-id="dev.noctalia.Noctalia"
+      open-floating true
+      default-column-width { fixed 1080; }
+      default-window-height { fixed 920; }
+    }
