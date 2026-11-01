@@ -30,7 +30,6 @@ Nixri/
 │   ├── core/
 │   ├── desktop/
 │   └── programs/
-├── home.nix
 └── README.md
 ```
 
