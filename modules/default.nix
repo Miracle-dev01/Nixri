@@ -47,5 +47,5 @@ in
     ./programs/misc/tlp
     ./programs/misc/lact # GPU fan, clock and power configuration
   ]
-  ++ lib.optional (vars.games == true) ./core/games.nix;
+    ++ lib.optional (vars.games == true) ./core/games.nix;
 }

@@ -39,6 +39,7 @@
     kdePackages.kimageformats
     imagemagick
 
+    bat
     snapshot # Basic Cmera
     # Peripheral mobile device compatibility tool
     libimobiledevice
@@ -47,6 +48,9 @@
     gvfs
     android-file-transfer
     glib
+
+    yt-dlp
+    ffmpeg
 
     # Image modifier
     python3Packages.img2pdf

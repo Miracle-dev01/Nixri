@@ -32,6 +32,8 @@ binds {
     XF86AUDIOLOWERVOLUME                allow-when-locked=true { spawn "noctalia" "msg" "volume-down" ; }
     XF86AUDIOMUTE                       allow-when-locked=true { spawn "noctalia" "msg" "volume-mute" ; }
     MOD+SHIFT+M                         allow-when-locked=true { spawn "noctalia" "msg" "mic-mute" ; }
+    XF86MonBrightnessUp                 allow-when-locked=true { spawn "noctalia" "msg" "brightness-up"; }
+    XF86MonBrightnessDown               allow-when-locked=true { spawn "noctalia" "msg" "brightness-down"; }
 
     // ─── Window Movement and Focus ───
     MOD+Q                               { close-window; }

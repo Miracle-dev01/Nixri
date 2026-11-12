@@ -55,6 +55,7 @@ in
 
     ../../modules/themes/catppuccin
   ]
-  ++ lib.optional (vars.games == true) ../../modules/core/games.nix;
+    ++ lib.optional (vars.games == true) ../../modules/core/games.nix;
+  programs.nix-ld.enable = true;
 
 }
